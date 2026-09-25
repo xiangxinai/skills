@@ -1,0 +1,15 @@
+{
+  "name": "xiangxinai",
+  "description": "Agent skills for building with the 象信 AI System One API.",
+  "owner": {
+    "name": "象信AI",
+    "url": "https://xiangxinai.cn"
+  },
+  "plugins": [
+    {
+      "name": "xiangxin",
+      "description": "象信 AI 系统一 API 的完整用法：Choice / Score / Noul 三种问题、置信度、架构模式与最佳实践",
+      "source": "./"
+    }
+  ]
+}

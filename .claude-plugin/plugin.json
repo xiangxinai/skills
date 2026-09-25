@@ -1,0 +1,12 @@
+{
+  "name": "xiangxin",
+  "version": "0.1.0",
+  "description": "Agent skills for building with the 象信 AI System One API.",
+  "author": {
+    "name": "象信AI",
+    "url": "https://xiangxinai.cn"
+  },
+  "homepage": "https://docs.xiangxinai.cn/agent-skill",
+  "repository": "https://github.com/xiangxinai/skills",
+  "license": "Apache-2.0"
+}
