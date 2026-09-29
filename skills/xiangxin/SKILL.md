@@ -5,7 +5,7 @@ description: 使用象信 AI 的系统一模型象信（xiangxin，模型名 xia
 
 # 象信 AI（Xiangxin）智能体 Skill
 
-> English summary: Xiangxin (`xiangxin`) is a System One model with a single public model: versioned id `xiangxin-2.0.0` ("象信 2.0"), aliases `xiangxin-latest` (default, use it in code) and `xiangxin-preview`. It is not fine-tuned per customer; the same weights serve every account. It takes a `state` (string / JSON object / array) plus a map of typed questions (`choice`, `score`, `noul`) and returns calibrated probabilities in one call. It never generates text. Your job as a coding agent: keep control flow in code, ask many small questions per call, and branch on probabilities/confidence. The rest of this file is in Chinese; code identifiers and field names are in English and must be used exactly.
+> English summary: Xiangxin (`xiangxin`) is a System One model with a single public model: versioned id `xiangxin-2.0.0` ("象信 2.0"), alias `xiangxin-latest` (default, use it in code). It is not fine-tuned per customer; the same weights serve every account. It takes a `state` (string / JSON object / array) plus a map of typed questions (`choice`, `score`, `noul`) and returns calibrated probabilities in one call. It never generates text. Your job as a coding agent: keep control flow in code, ask many small questions per call, and branch on probabilities/confidence. The rest of this file is in Chinese; code identifiers and field names are in English and must be used exactly.
 
 完整文档：https://docs.xiangxinai.cn （每页加 `.md` 可取原文；索引 https://docs.xiangxinai.cn/llms.txt ，全文 https://docs.xiangxinai.cn/llms-full.txt ）。
 
@@ -25,7 +25,7 @@ description: 使用象信 AI 的系统一模型象信（xiangxin，模型名 xia
 
 ### 模型名
 
-只有一个模型：**象信**。代码里写别名 `xiangxin-latest`（SDK 默认值，指向 `xiangxin-2.0.0`）；调好阈值后可以固定版本号 `xiangxin-2.0.0`。`xiangxin-preview` 目前与 `xiangxin-latest` 相同。其他模型名返回 404 `model_not_found`。象信不按客户微调，要让它贴合业务，靠 `state` 里的资料和 `instructions` / `criteria` 里写清的规则。
+只有一个模型：**象信**。代码里写别名 `xiangxin-latest`（SDK 默认值，指向 `xiangxin-2.0.0`）；调好阈值后可以固定版本号 `xiangxin-2.0.0`。其他模型名返回 404 `model_not_found`。象信不按客户微调，要让它贴合业务，靠 `state` 里的资料和 `instructions` / `criteria` 里写清的规则。
 
 ## 2. 接口速查
 
